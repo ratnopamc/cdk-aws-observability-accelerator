@@ -70,7 +70,7 @@ export default class SingleNewEksOpenSourceobservabilityPattern {
                 version: 'v5.0.0-rc3'
             }),
             new blueprints.addons.FluxCDAddOn({"repositories": [fluxRepository]}),
-            new GrafanaOperatorSecretAddon(),
+            new GrafanaOperatorSecretAddon()
         ];
 
         ObservabilityBuilder.builder()
